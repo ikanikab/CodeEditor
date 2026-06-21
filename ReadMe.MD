@@ -1,4 +1,4 @@
-# Collaborative Code Editor
+# Prism - Collaborative Code Editor
 
 A real-time collaborative code editor that allows multiple users to write and edit code together with live synchronization, authentication, and shareable rooms.
 
@@ -16,10 +16,10 @@ A real-time collaborative code editor that allows multiple users to write and ed
   - Join a room via its ID or a shared link
   - Room ownership management with MongoDB
 
-- 🔗 **Shareable Room Links**
+- **Shareable Room Links**
   - "Copy Room Link" button — share `/room/<roomId>` with anyone, no query params needed
 
-- 👥 **Live Collaboration**
+- **Live Collaboration**
   - Real-time code sync powered by Yjs CRDT + Socket.IO
   - Live list of users currently in the room
   - Shared language selector (synced across all participants)
