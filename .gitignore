@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules
+frontend/dist
+
+# Backend
+backend/node_modules
+
+# Environment
+*.env
+frontend/.env
+backend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# VS Code
+.vscode/
