@@ -4,6 +4,16 @@ A real-time collaborative code editor that allows multiple users to write and ed
 
 **Live Demo:** https://prism-code-editor.onrender.com
 
+## Tech Stack
+
+| Layer      | Tech                                  |
+|------------|----------------------------------------|
+| Frontend   | React, React Router, Tailwind CSS, Monaco Editor |
+| Realtime   | Yjs, y-socket.io, Socket.IO            |
+| Backend    | Node.js, Express.js, MongoDB (Mongoose), JWT, bcrypt |
+| Deployment | Docker, Render     
+
+
 ## Features
 
 - **JWT Authentication**
@@ -28,12 +38,4 @@ A real-time collaborative code editor that allows multiple users to write and ed
 - 🐳 **Dockerized**
   - Single Dockerfile builds frontend + backend into one image
   - `docker-compose.yml` included for local dev with MongoDB
-
-## Tech Stack
-
-| Layer      | Tech                                  |
-|------------|----------------------------------------|
-| Frontend   | React, React Router, Tailwind CSS, Monaco Editor |
-| Realtime   | Yjs, y-socket.io, Socket.IO            |
-| Backend    | Node.js, Express.js, MongoDB (Mongoose), JWT, bcrypt |
-| Deployment | Docker, Render                                |
+                           |
